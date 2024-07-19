@@ -359,6 +359,21 @@ img {
 
 
 /* ===== WORK =====*/
+
+.work__description {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: var(--mb-2); /* Adjust as necessary */
+  padding-left: 0.5rem; /* Adjust as necessary */
+  list-style-position: inside; /* Ensures bullets are inside the padding */
+}
+
+.work__description li {
+  margin-bottom: 0.5rem; /* Adjust spacing between list items as necessary */
+  text-align: left; /* Aligns text to the left */
+}
+
+
 .work__container {
   display: flex;
   flex-direction: row;
